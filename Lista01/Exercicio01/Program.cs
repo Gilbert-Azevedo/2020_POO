@@ -6,7 +6,12 @@ namespace Exercicio01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Exercicio01");
+            Retangulo r = new Retangulo();
+            Console.WriteLine("Informe o valor da base:");
+            double.Parse(Console.ReadLine());
+            r.SetBase(10);
+            Console.WriteLine($"Base = {r.GetBase():0.00}");
+            Console.ReadKey();
         }
     }
 }
