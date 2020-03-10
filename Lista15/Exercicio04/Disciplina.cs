@@ -12,17 +12,18 @@ namespace Exercicio04
         private string semestre;
         private int media;
         private bool aprovado;
-        public Disciplina(string nome, string semestre, int media)
-        {
+        public Disciplina(string nome, string semestre, int media) {
             this.nome = nome;
             this.semestre = semestre;
             this.media = media;
             aprovado = media >= 60;
         }
-        public override string ToString()
-        {
+        public override string ToString() {
             return aprovado ? $"{nome} {semestre} {media} aprovado" :
                  $"{nome} {semestre} {media} reprovado";
+        }
+        public int GetMedia() {
+            return media;
         }
     }
 }
