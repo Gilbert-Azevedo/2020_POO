@@ -12,9 +12,10 @@ namespace Exercicio08
         {
             // Esse exercício é o Problema do Troco. Ele pode ser resolvido
             // dividindo o valor sucessivamente pelos valores das cédulas,
-            // em ordem crescente de valor
+            // em ordem decrescente de valor
             // Quando a quantidade de cédulas de um valor é calculada, o resto 
-            // da divisão indica o valor que ainda resta a ser obtido
+            // da divisão pelo valor desta cédula indica o valor que ainda resta 
+			// a ser obtido
             
             Console.WriteLine("Digite um valor monetário inteiro");
             int valor = int.Parse(Console.ReadLine());

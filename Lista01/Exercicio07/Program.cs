@@ -10,7 +10,7 @@ namespace Exercicio07
     {
         static void Main(string[] args)
         {
-            // O método Split é usado para dividir de acordo com um separador
+            // O método Split é usado para dividir um texto de acordo com um separador
             // No exemplo, o separador é o caractere ',' do valor
             // O primeiro elemento tem o número de reais
             // O segundo elemento tem o número de centavos

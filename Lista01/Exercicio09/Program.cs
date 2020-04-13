@@ -10,7 +10,8 @@ namespace Exercicio09
     {
         static void Main(string[] args)
         {
-            // O índice de massa corporal é dado pela massa dividida pelo quadrado da altura
+            // O índice de massa corporal é dado pela massa dividida pelo quadrado 
+			// da altura
             
             Console.WriteLine("Informe sua massa em kg:");
             double m = double.Parse(Console.ReadLine());

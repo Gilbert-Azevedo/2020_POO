@@ -12,7 +12,7 @@ namespace Exercicio10
         {
             Console.WriteLine("Há quantos anos você fuma?");
             double a = double.Parse(Console.ReadLine());
-            Console.WriteLine("Quantos cigarros por dia");
+            Console.WriteLine("Quantos cigarros por dia?");
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine("Qual o preço da carteira de cigarros?");
             double p = double.Parse(Console.ReadLine());

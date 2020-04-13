@@ -10,7 +10,7 @@ namespace Exercicio06
     {
         static void Main(string[] args)
         {
-            // O método Sqrt calcular a raiz quadrada de um número
+            // O método Sqrt calcula a raiz quadrada de um número
 
             Console.WriteLine("Digite a base e a altura do retângulo");
             double b = double.Parse(Console.ReadLine());

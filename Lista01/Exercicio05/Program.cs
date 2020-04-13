@@ -10,9 +10,9 @@ namespace Exercicio05
     {
         static void Main(string[] args)
         {
-            // O método Split é usado para dividir de acordo com um separador
+            // O método Split é usado para dividir um texto de acordo com um separador
             // No exemplo, o separador é o caractere '/' da data
-            // O resultado do Split é um vetor de elementos em que cada
+            // O resultado do Split é um vetor de strings em que cada
             // elemento é acessado com um índice que inicia em zero
             // O método Substring é usado para recuperar parte de um texto
 
