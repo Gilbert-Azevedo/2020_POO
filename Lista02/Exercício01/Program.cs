@@ -13,9 +13,15 @@ namespace Exercício01
             Console.WriteLine("Digite dois valores inteiros");
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
-            if (a == b) Console.WriteLine("Números Iguais");
-            if (a > b) Console.WriteLine(a);
-            if (a < b) Console.WriteLine(b);
+            // Solução usando apenas if
+            if (a == b) Console.WriteLine("Números iguais");
+            if (a > b) Console.WriteLine($"Maior = {a}");
+            if (a < b) Console.WriteLine($"Maior = {b}");
+            // Solução usando if-else
+            if (a == b) Console.WriteLine("Números iguais");
+            else
+              if (a > b) Console.WriteLine($"Maior = {a}");
+              else Console.WriteLine($"Maior = {b}");
             Console.ReadKey();
         }
     }
