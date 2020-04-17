@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace Exercicio05
 {
-    // Enumerações mês e trimestre utilizadas na solução 2
-    enum mes { janeiro = 1, fevereiro, março, abril, maio, junho, julho, agosto,
-      setembro, outubro, novembro, dezembro }
-    enum trimestre { primeiro = 0, segundo, terceiro, quarto }
-
     class Program
     {
         static void Main(string[] args)
         {
+            // Mais sobre switch em: https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/switch
+            // Mais sobre enumerações em: https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/enum
+
             Console.WriteLine("Informe o número do mês");
             int m = int.Parse(Console.ReadLine());
             // Solução 1 - usando switch ou if para testar cada mês
@@ -36,7 +34,7 @@ namespace Exercicio05
                 case 12: Console.WriteLine("O mês de dezembro é do quarto trimestre do ano"); break;
             }
 
-            // Solução 2 - usando as enumerações mês e trimestre
+            // Solução 2 - usando as enumerações mês e trimestre definidas abaixo
             // Converte o inteiro m com o número do mês para a variável do tipo mes
             mes x = (mes)m;
             // Calcula o trimestre e converte a variável para o tipo trimestre
@@ -45,4 +43,12 @@ namespace Exercicio05
             Console.ReadKey();
         }
     }
+
+    // Enumerações mês e trimestre utilizadas na solução 2
+    enum mes
+    {
+        janeiro = 1, fevereiro, março, abril, maio, junho, julho, agosto,
+        setembro, outubro, novembro, dezembro
+    }
+    enum trimestre { primeiro = 0, segundo, terceiro, quarto }
 }

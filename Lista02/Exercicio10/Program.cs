@@ -10,13 +10,15 @@ namespace Exercicio10
     {
         static void Main(string[] args)
         {
+            // Mais sobre operador condicional em: https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator
+
             Console.WriteLine("Digite uma data no formato dd/mm/aaaa");
             string s = Console.ReadLine();
             // É possível obter dia, mes e ano com Split ou Substring
-            string[] x = s.Split('/');
-            int d = int.Parse(x[0]);
-            int m = int.Parse(x[1]);
-            int a = int.Parse(x[2]);
+            string[] v = s.Split('/');
+            int d = int.Parse(v[0]);
+            int m = int.Parse(v[1]);
+            int a = int.Parse(v[2]);
             // Verifica se o ano é bissexto
             bool bissexto = (a % 4 == 0 && a % 100 != 0) || a % 400 == 0;
             // É necessário descobrir o número máximo de dias do mês da data

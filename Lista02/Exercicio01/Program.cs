@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercício01
+namespace Exercicio01
 {
     class Program
     {
         static void Main(string[] args)
         {
+            // Mais sobre if-else em: https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/if-else
+
             Console.WriteLine("Digite dois valores inteiros");
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
@@ -21,7 +23,7 @@ namespace Exercício01
             if (a == b) Console.WriteLine("Números iguais");
             else
               if (a > b) Console.WriteLine($"Maior = {a}");
-              else Console.WriteLine($"Maior = {b}");
+            else Console.WriteLine($"Maior = {b}");
             Console.ReadKey();
         }
     }
