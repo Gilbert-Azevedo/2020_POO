@@ -10,6 +10,7 @@ namespace Exercicio02
     {
         static void Main(string[] args)
         {
+            // Dados da disciplina
             Disciplina d = new Disciplina();
             Console.WriteLine("Informe o nome da disciplina");
             d.SetNome(Console.ReadLine());
