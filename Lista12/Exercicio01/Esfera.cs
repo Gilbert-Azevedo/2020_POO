@@ -10,7 +10,7 @@ namespace Exercicio01
     {
         // Atributo encapsulado
         private double raio;
-        // Métodos acessores
+        // Métodos de acesso
         public void SetRaio(double r)
         {
             raio = r;

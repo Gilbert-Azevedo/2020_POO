@@ -16,7 +16,7 @@ namespace Exercicio03
             distancia = d;
             tempo = t;
         }
-        // Métodos acessores
+        // Métodos de acesso
         public void SetDistancia(double d)
         {
             distancia = d;

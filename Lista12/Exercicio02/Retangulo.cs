@@ -24,7 +24,7 @@ namespace Exercicio02
             this.b = b;
             this.h = h;
         }
-        // Métodos acessores. Métodos Set podem alterar os valores iniciais passados
+        // Métodos de acesso. Métodos Set podem alterar os valores iniciais passados
         // para o construtor. Observe que a diferença principal é que o construtor
         // cria umanova instância enquanto o Set altera uma instância que já existe
         public void SetBase(double b)

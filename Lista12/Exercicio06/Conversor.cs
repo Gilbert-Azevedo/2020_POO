@@ -10,7 +10,7 @@ namespace Exercicio06
     {
         // Atributos
         private int num;
-        // Métodos de Acesso
+        // Métodos de acesso
         public void SetNum(int n)
         {
             // Apenas números positivos são armazenados

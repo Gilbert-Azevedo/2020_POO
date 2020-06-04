@@ -16,7 +16,7 @@ namespace Exercicio04
             distancia = d;
             peso = p;
         }
-        // Métodos acessores
+        // Métodos de acesso
         public void SetDistancia(double d)
         {
             distancia = d;
