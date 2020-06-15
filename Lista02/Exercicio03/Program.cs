@@ -16,7 +16,7 @@ namespace Exercicio03
             int c = int.Parse(Console.ReadLine());
             int d = int.Parse(Console.ReadLine());
             // A variável sp vai totalizar a soma dos números pares
-            // A variável si vai totalizar a soma dos números pares
+            // A variável si vai totalizar a soma dos números ímpares
             // Toda variável que totaliza uma soma deve iniciar com zero
             int sp = 0, si = 0;
             // Verifica cada um dos números, somando em sp se for par
