@@ -22,7 +22,7 @@ namespace Exercicio02
             int n = 0;                 // Números já sorteados
             while (n < numBolas)       // Repete a inserção de números até preencher o vetor
             {
-                int x = r.Next(numBolas + 1); // Gera um número entre 1 e o nº bolas
+                int x = r.Next(numBolas) + 1; // Gera um número entre 1 e o nº bolas
                 if (!nums.Contains(x))        // Se o nº não estiver no vetor, insere
                     nums[n++] = x;
             }
